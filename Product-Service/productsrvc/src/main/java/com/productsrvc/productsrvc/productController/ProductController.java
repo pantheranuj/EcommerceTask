@@ -36,7 +36,7 @@ public class ProductController {
     //Getting all
     @GetMapping("/all")
     public ResponseEntity<List<Product>> getAll() {
-        return ResponseEntity.ok(productService.getAllProducts());
+        return ResponseEntity.ok(productService.getAll());
     }
 
     //delete operation performed

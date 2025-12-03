@@ -25,10 +25,6 @@ public class ProductService {
     public List<Product> getAll() {
         return productRepository.findAll();
     }
-    public List<Product> getAllProducts() {
-        return productRepository.findAll();
-    }
-
 
     public Product update(Long id, Product product) {
 
