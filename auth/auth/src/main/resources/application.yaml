@@ -6,6 +6,7 @@ spring:
     url: jdbc:mysql://localhost:3306/auth_db
     username: root
     password: test
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
@@ -13,4 +14,4 @@ spring:
     show-sql: true
 
 jwt:
-  secret: "THIS_IS_A_SUPER_SECRET_KEY_1234567890"
+  secret: "THIS_IS_MY_SECRET_KEY_123456789012345"
